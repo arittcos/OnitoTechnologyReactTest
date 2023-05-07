@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.mt-l-20 {
+  margin-left: 20px;
+}
+
+.mt-l-12 {
+  margin-left: 12px;
+}
+
+.error-msg {
+  font-size: 12px;
+  color: red;
+}
+
+.disp-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.user-form-container {
+  padding: 20px 40px;
+}
+
+h3 {
+  color: blueviolet;
+}
+
+label {
+  font-weight: 600;
+  color: rgb(50, 50, 50);
+}
+
+select {
+  padding: 4px 8px;
+  outline: none;
+  border: 1px solid blueviolet;
+  border-radius: 4px;
+}
+
+input {
+  padding: 4px 8px;
+  outline: none;
+  border: 1px solid blueviolet;
+  border-radius: 4px;
+}
+
+input:focus {
+  box-shadow: 0px 0px 4px blueviolet;
+}
+
+input[type="submit"] {
+  padding: 8px 20px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: #ffffff;
+}
+
+input[type="submit"]:hover {
+  background: transparent;
+  color: black;
+}
+
+input[type="radio"] {
+  box-shadow: none;
+}
+
+.details-fields {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.formBtns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.link:hover {
+  background-color: red;
+  color: #ffffff;
+}
